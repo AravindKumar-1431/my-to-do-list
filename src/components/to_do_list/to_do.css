@@ -42,9 +42,9 @@ height: 90%;
 
   justify-content: center;
   align-items: center;
-  width: 50%;
+  width: 100%;
   position: absolute;
-  left: 20%;
+ 
   top: 10%;
   padding: 1rem;
   }
@@ -237,6 +237,33 @@ input{
   width: 500px;
 
   margin-left:0.3rem;
+  }
+  /* input{
+    padding: 0.3rem;
+    width: 100px;
+} */
+} 
+
+@media screen and (max-width: 400px) {
+  .containertodo{
+  width: 300px;
+
+
+  margin-left:0.3rem;
+  }
+  /* .to_do_input{
+
+    display: flex;
+    flex-direction: colu;
+  } */
+
+  
+.delbtn{
+
+
+  margin-left: 200px;
+  
+
   }
   /* input{
     padding: 0.3rem;
