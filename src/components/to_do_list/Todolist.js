@@ -30,7 +30,7 @@ const ToDoList = () => {
 
 
 
-   <img src={im} alt="image"/>
+   <img src={im} alt="image1"/>
     
         <div className='to_do_input'>
           <input
